@@ -20,7 +20,7 @@ export class BouttonActionComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  bouttonNouveauClick():void{
+  bouttonNouveauClick(): void {
     this.clickEvent.emit();
   }
 }

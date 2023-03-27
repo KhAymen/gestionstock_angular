@@ -7,6 +7,11 @@ import {PageStatistiquesComponent} from "./pages/page-statistiques/page-statisti
 import {PageArticleComponent} from "./pages/articles/page-article/page-article.component";
 import {NouvelArticleComponent} from "./pages/articles/nouvel-article/nouvel-article.component";
 import {PageMvtstkComponent} from "./pages/mvtstk/page-mvtstk/page-mvtstk.component";
+import {PageClientComponent} from "./pages/client/page-client/page-client.component";
+import {PageFournisseurComponent} from "./pages/fournisseur/page-fournisseur/page-fournisseur.component";
+import {NouveauCltFrsComponent} from "./composants/nouveau-clt-frs/nouveau-clt-frs.component";
+import {PageCmdCltFrsComponent} from "./pages/page-cmd-clt-frs/page-cmd-clt-frs.component";
+import {NouvelleCmdCltFrsComponent} from "./composants/nouvelle-cmd-clt-frs/nouvelle-cmd-clt-frs.component";
 
 const routes: Routes = [
   {
@@ -36,6 +41,38 @@ const routes: Routes = [
       {
         path: 'mvtstk',
         component: PageMvtstkComponent
+      },
+      {
+        path: 'clients',
+        component: PageClientComponent
+      },
+      {
+        path: 'nouveauclient',
+        component: NouveauCltFrsComponent
+      },
+      {
+        path: 'commandesclient',
+        component: PageCmdCltFrsComponent
+      },
+      {
+        path: 'nouvellecommandeclt',
+        component: NouvelleCmdCltFrsComponent
+      },
+      {
+        path: 'fournisseurs',
+        component: PageFournisseurComponent
+      },
+      {
+        path: 'nouveaufournisseur',
+        component: NouveauCltFrsComponent
+      },
+      {
+        path: 'commandesfournisseur',
+        component: PageCmdCltFrsComponent
+      },
+      {
+        path: 'nouvellecommandefrs',
+        component: NouvelleCmdCltFrsComponent
       }
     ]
   }

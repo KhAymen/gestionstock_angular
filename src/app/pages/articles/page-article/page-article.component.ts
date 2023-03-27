@@ -14,7 +14,7 @@ export class PageArticleComponent implements OnInit {
   }
 
   nouvelArticle(): void {
-    this.router.navigate(['nouvelArticle']);
+    this.router.navigate(['nouvelarticle']);
   }
 
 }
